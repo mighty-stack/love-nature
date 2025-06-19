@@ -52,8 +52,7 @@ a:active{
 }
 
 .landing_page{
-    /* background: linear-gradient(rgba(0, 0, 0, 0.986), rgba(0, 0, 0, 0.952),); */
-    background-image: url(./images/header-hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/header-hero.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -244,10 +243,10 @@ padding-bottom: 50px;
 
 
 .about_main{
-    background-image: url(./images/header-hero-1.jpg);
-    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/header-hero-1.jpg);
+    height: 480px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     justify-items: center;
     align-content: center;
 }
@@ -328,8 +327,8 @@ width: 700px;
 }
 
 .service_main{
-    background-image: url(./images/services-hero.jpg);
-    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/services-hero.jpg);
+    height: 480px;
     background-repeat: no-repeat;
     background-size: cover;
     justify-items: center;
@@ -368,7 +367,7 @@ width: 700px;
 }
 
 .contact_main{
-    background-image: url(./images/contact-hero-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/contact-hero-1.jpg);
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -476,3 +475,16 @@ text-align: center;
         align-items: center;
         gap: 20px;
     }
+
+
+    /* === Responsive Design === */
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 1024px) {
+    
+}
+
+/* Small devices (phones, 767px and below) */
+@media (max-width: 767px) {
+    
+}
